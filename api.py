@@ -5,7 +5,7 @@ from .post.views import router as post_router
 from .activity.views import router as activity_router
 from .profile.views import router as profile_router
 
-router = APIRouter(prefix="/v1")
+router = APIRouter()
 
 router.include_router(auth_router)
 router.include_router(post_router)
