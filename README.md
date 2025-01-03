@@ -2,27 +2,6 @@
 
 ## Overview
 This is a clone of instagram backend services, with features such as Sign up, Login, creating post etc.
-User Registration
-User Login
-Create Posts with following details:
-Caption
-Post Image/Video URL
-Background Music URL (Optional)
-Post Category like (Tech, Entertainment, Business etc.)
-Datetime Posted
-Publisher User ID
-Any other attribute you find helpful
-(Note: Make sure that you implement a mechanism for validating the user before processing the create request)
-View a user profile. (Profile should reflect all the information we usually see on Instagram when we visit a user profile)
-Follow other users.
-Get contents posted by the logged in user.
-Get contents posted by other users on the platform.
-Get details of a specific post (Actual post, post by user, likes count, comments count, and other relevant details)
-Like a post.
-Get all users who liked a particular post
-Comment on a post.
-Get all users and their comments on a particular post.
-Implement user feed, where a user can get a list of posts based on the users they follow, in a reverse chronological order (Latest post on top). This should be paginated.
 
 ## Features
 - **Login and Sign up**: Users can register and again login.
